@@ -1,6 +1,7 @@
 :root{
     --text-color: rgb();
     --font-size: 40px;
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     display: flex;
@@ -8,7 +9,7 @@ body{
     align-items: center;
     margin: 0;
     max-width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family);
     background-color: lightgray;
     
 }
@@ -56,6 +57,13 @@ button{
     background-color: #3b98b0;
     border-radius: 10px;
     font-size: .8em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-family);
 }
 
 footer{
@@ -114,10 +122,25 @@ footer{
     margin-top: 50px;
 }
 
+#map-container{
+    margin-top: 50px;
+}
+
 #contact-section{
     background-color: #3b98b0;
 }
 
+#form-field{
+    margin-bottom: 5px;
+}
+
+#message-area{
+    margin-bottom: 5px;
+}
+
+#submit-message{
+    width: 50px;
+}
 #dropdown-menu{
     justify-self: flex-start;
 }
