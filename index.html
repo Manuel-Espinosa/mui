@@ -6,140 +6,145 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Mu'i Psicología</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Psicoterapia en Línea</title>
 </head>
 
 <body>
+
     <header>
-        <div class="container" id="nav-container">
-            <nav class="menu" id="nav-menu">
-                <a id="dropdown-menu" href="#" data-toggle="dropdown">Menu</a>
-                <ul class="menu" id="main-menu">
-                    <li class="ul-element">
-                        <a href="#" id="menu-link">Servicios</a>
-                    </li>
-                    <li class="ul-element">
-                        <a href="#" id="menu-link">Precios</a>
-                    </li>
-                    <li class="ul-element">
-                        <a href="#" id="menu-link">Agenda</a>
-                    </li>
-                    <li class="ul-element">
-                        <a href="#" id="menu-link">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <a href="#services-section" id="menu-link">Servicios</a>
+        <a href="#pricing-section" id="menu-link">Precios</a>
+        <a href="#contact-section" id="menu-link">Contacto</a>
     </header>
+
     <main>
+
         <section id="welcome-section">
-            <div class="container" id="info-contaier">
-                <h1 class="title" id="info-title">¿Buscas atención psicológica en línea?</h1>
-                <button id="schedule-btn">Agenda una cita</button>
-            </div>
+            <h1 class="title" id="info-title">¿Buscas atención <span>psicológica</span> en línea?</h1>
+            <h2 class="subtitle">En <span>Mu'i</span> econtrarás un espacio adecuado para ti</h2>
+            <img id="relax" src="media/undraw_everywhere_together_bdmn.svg" alt="" />
         </section>
         <section id="services-section">
-            <div class="container" id="service-container">
-                <div class="container" id="service-info">
-                    <div class="container" id="header">
-                        <h1 id="service-header">
+            <div class="container" id="service-one">
+                <div class="container" id="container-info">
+                    <div class="container" id="div-header">
+                        <h1>
                             Psicoterapia Breve
                         </h1>
                     </div>
-                    <div class="container" id="text">
-                        <p id="service-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum numquam eaque exercitationem
-                            est placeat quam, dignissimos saepe adipisci deserunt ea quos et beatae nesciunt architecto
-                            laborum itaque aperiam excepturi pariatur!
+                    <div class="container" id="div-description">
+                        <p>
+                            La Psicoterapia Breve es una excelente herramienta para esos casos en los que nos
+                            enfrentamos a situaciones inesperadas que nos provocan desequilibrio. Juntos crearemos un
+                            plan de 6 sesiones en las que abordaremos objetivos prescisos que te ayuden a recuperar el
+                            equilibrio.
                         </p>
-                        <button id="schedule-btn">Agendar</button>
+                        <img src="/mui/media/undraw_target_kriv.svg" alt="" id="service-img">
                     </div>
                 </div>
             </div>
-            <div class="container" id="service-container">
-                <div class="container" id="service-info">
-                    <div class="container" id="header">
-                        <h1 id="service-header">
+            <div class="container" id="service-two">
+                <div class="container" id="container-info">
+                    <div class="container" id="div-header">
+                        <h1>
                             Psicoterapia Individual
                         </h1>
                     </div>
-                    <div class="container" id="text">
-                        <p id="service-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum numquam eaque exercitationem
-                            est placeat quam, dignissimos saepe adipisci deserunt ea quos et beatae nesciunt architecto
-                            laborum itaque aperiam excepturi pariatur!
+                    <div class="container" id="div-description">
+                        <p>
+                            La Psicoterapia Individual es iniciar una aventura hacia el interior, descubir que es lo que
+                            nos hace ser "nosotros", descubir lo que nos incomoda y ponernos en el camino del cambio, es
+                            un proceso que puede ser atemorizante pero no estas por tu cuenta, te acompañaremos desde el
+                            día uno.
                         </p>
-                        <button id="schedule-btn">Agendar</button>
+                        <img src="/mui/media/undraw_adventure_map_hnin.svg" alt="" id="service-img">
                     </div>
                 </div>
             </div>
-            <div class="container" id="service-container">
-                <div class="container" id="service-info">
-                    <div class="container" id="header">
-                        <h1 id="service-header">
+            <div class="container" id="service-three">
+                <div class="container" id="container-info">
+                    <div class="container" id="div-header">
+                        <h1>
                             Psicoterapia en Pareja
                         </h1>
                     </div>
-                    <div class="container" id="text">
-                        <p id="service-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum numquam eaque exercitationem
-                            est placeat quam, dignissimos saepe adipisci deserunt ea quos et beatae nesciunt architecto
-                            laborum itaque aperiam excepturi pariatur!
+                    <div class="container" id="div-description">
+                        <p>
+                            La Psicoterapia en Pareja es un viaje en el que descubrirán nuevas formas de comunicarse, de
+                            aprender a relacionarse, ponerse limites y metas. Comunicarse puede ser complicado, hacerlo
+                            en terapia ayuda a que el mensaje llegue claro y a apartar lo que distorsiona nuestra
+                            comunicación.
                         </p>
-                        <button id="schedule-btn">Agendar</button>
+                        <img src="/mui/media/undraw_together_re_a8x4.svg" alt="" id="service-img">
                     </div>
                 </div>
             </div>
         </section>
         <section id="pricing-section">
-            <div class="container" id="pricing-container">
-                <div class="container" id="pricing-info">
-                    <div class="container" id="header">
-                        <h1 id="service-header">
-                            Plan 1
+            <div class="container" id="pricing-one">
+                <div class="container" id="container-info">
+                    <div class="container" id="div-header">
+                        <h1>
+                            Plan Breve
                         </h1>
                     </div>
-                    <div class="container" id="text">
-                        <p id="pricing-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum numquam eaque exercitationem
-                            est placeat quam, dignissimos saepe adipisci deserunt ea quos et beatae nesciunt architecto
-                            laborum itaque aperiam excepturi pariatur!
+                    <div class="container" id="div-description">
+                        <p>
+                            Recuperemos el equilibrio juntos. Este plan terapéutico breve incluye 6 sesiones, tomando una sesión por semana.
                         </p>
-                        <button id="schedule-btn">Agendar</button>
+                        <h1 id="price-line-through">$2399</h1>
+                        <h1 id="price">$1799</h1>
                     </div>
                 </div>
             </div>
-            <div class="container" id="pricing-container">
-                <div class="container" id="pricing-info">
-                    <div class="container" id="header">
-                        <h1 id="service-header">
-                            Plan 2
+            <div class="container" id="pricing-two">
+                <div class="container" id="container-info">
+                    <div class="container" id="div-header">
+                        <h1>
+                            Plan Paso a paso
                         </h1>
                     </div>
-                    <div class="container" id="text">
-                        <p id="pricing-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum numquam eaque exercitationem
-                            est placeat quam, dignissimos saepe adipisci deserunt ea quos et beatae nesciunt architecto
-                            laborum itaque aperiam excepturi pariatur!
+                    <div class="container" id="div-description">
+                        <p>
+                            De paso en paso. Con este plan mensual irás tomando el ritmo del proceso
+                            psicoterapeutico con una sesión cada quince dias.
                         </p>
-                        <button id="schedule-btn">Agendar</button>
+                        <h1 id="price-line-through">$1199</h1>
+                        <h1 id="price">$599</h1>
                     </div>
                 </div>
             </div>
-            <div class="container" id="pricing-container">
-                <div class="container" id="pricing-info">
-                    <div class="container" id="header">
-                        <h1 id="service-header">
-                            Plan 3
+            <div class="container" id="pricing-three">
+                <div class="container" id="container-info">
+                    <div class="container" id="div-header">
+                        <h1>
+                            Plan Pasos firmes
                         </h1>
                     </div>
-                    <div class="container" id="text">
-                        <p id="pricing-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum numquam eaque exercitationem
-                            est placeat quam, dignissimos saepe adipisci deserunt ea quos et beatae nesciunt architecto
-                            laborum itaque aperiam excepturi pariatur!
+                    <div class="container" id="div-description">
+                        <p>
+                            Entra de lleno. Con este plan mensual vivirás la experiencia completa de la psicoterapia tomando una sesión por semana.
                         </p>
-                        <button id="schedule-btn">Agendar</button>
+                        <h1 id="price-line-through">$1599</h1>
+                        <h1 id="price">$999</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="pricing-four">
+                <div class="container" id="container-info">
+                    <div class="container" id="div-header">
+                        <h1>
+                            Plan Parejas
+                        </h1>
+                    </div>
+                    <div class="container" id="div-description">
+                        <p>
+                            Dar este paso juntos es complicado, acompañense tomando este plan mensual que incluye una sesión por semana.
+                        </p>
+                        <h1 id="price-line-through">$2199</h1>
+                        <h1 id="price">$1599</h1>
                     </div>
                 </div>
             </div>
@@ -148,22 +153,23 @@
             <div class="container" id="map-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.482826162452!2d-98.7723297846239!3d19.13033125523257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb750fe04d7d%3A0xb8862d84fd5a64b6!2sMu&#39;i%20Psicolog%C3%ADa!5e0!3m2!1ses-419!2smx!4v1635558473431!5m2!1ses-419!2smx"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    allowfullscreen="" loading="lazy"></iframe>
             </div>
-            <div class="container" id="contact-form-container">
+            <div class="container" id="form-container">
+                <div class="container" id="div-header">
+                    <h1>Contacto</h1>
+                </div>
                 <form action="#" id="contact-form">
-                    <h2 id="contact-title">Contacto</h2>
                     <input type="text" name="name" id="form-field" placeholder="Nombre">
                     <input type="text" name="email" id="form-field" placeholder="Email">
-                    <textarea name="message" id="message-area" cols="30" rows="15" placeholder="Escribe un mensaje"></textarea>
-                    <input id="submit-message" value="Enviar"></input>
+                    <textarea name="message" id="message-area" cols="30" rows="15"
+                        placeholder="Escribe un mensaje"></textarea>
+                    <input type="submit" id="submit-message" value="Enviar"></input>
                 </form>
             </div>
         </section>
     </main>
-    <footer>
-        Creado por Manuel Espinosa
-    </footer>
+
 </body>
 
 </html>

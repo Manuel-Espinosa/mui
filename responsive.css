@@ -1,0 +1,137 @@
+@media (max-width: 810px) {
+    :root{
+        --gap:1rem;  
+      
+    }
+    body{
+        width: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header"
+            "main"
+            "footer"
+        ;
+        gap:var(--gap);
+        overflow: scroll;
+    }
+    body > header {
+        grid-area: header;
+        
+    }
+    
+    body > main {
+        grid-area: main;
+        
+    }
+      
+    body > footer {
+        grid-area: footer;
+        
+    }
+
+    main{
+        display: grid;
+        grid-template-rows:auto;
+        grid-template-areas: 
+        "welcome-section" 
+        "services-section" 
+        "pricing-section"
+        "contact-section";
+        gap:var(--gap);
+    }
+    main > #welcome-section{
+        grid-area: welcome-section;
+    }
+      
+      main > #services-section{
+        grid-area: services-section;
+        
+    }
+      
+      main > #pricing-section{
+        grid-area: pricing-section;
+       
+    }
+    
+      main > #contact-section{
+        grid-area: contact-section;
+    }
+    .container{
+        width: 390px;
+    }
+    #services-section{ 
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "service-one" 
+        "service-two" 
+        "service-three";
+        gap:var(--gap);
+      }
+      
+      #services-section > #service-one{
+        grid-area: service-one;
+      }
+      
+      #services-section > #service-two{
+        grid-area: service-two;
+      }
+      
+      #services-section > #service-three{
+        grid-area: service-three;
+      }
+      
+      #pricing-section{
+        display: grid;
+        grid-template-rows:auto;
+        grid-template-areas: 
+        "pricing-one"
+        "pricing-two"
+        "pricing-three"
+        "pricing-four";
+        gap:var(--gap);
+      }
+      
+      #pricing-section > #pricing-one{
+        grid-area: pricing-one;
+      }
+      
+      #pricing-section > #pricing-two{
+        grid-area: pricing-two;
+      }
+      
+      #pricing-section > #pricing-three{
+        grid-area: pricing-three;
+      }
+      
+      #pricing-section > #pricing-four{
+        grid-area: pricing-four;
+      }
+      
+      #contact-section{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-areas: 
+          "map"
+          "form";
+        gap:var(--gap);
+      }
+      
+      #contact-section > #map-container{
+        grid-area: map;
+      
+      }
+      
+      #contact-section > #form-container{
+        grid-area: form;
+      }
+      
+      iframe{
+        width:390px; 
+        height:450px; 
+        border:0;
+      }
+
+    
+}
